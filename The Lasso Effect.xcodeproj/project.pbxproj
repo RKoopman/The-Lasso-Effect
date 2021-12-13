@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC1BE282767FC1000877C80 /* The_Lasso_EffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */; };
+		7CC1BE2A2767FC1000877C80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE292767FC1000877C80 /* ContentView.swift */; };
+		7CC1BE2C2767FC1200877C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1BE2B2767FC1200877C80 /* Assets.xcassets */; };
+		7CC1BE2F2767FC1200877C80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1BE2E2767FC1200877C80 /* Preview Assets.xcassets */; };
+		7CC1BE392767FC1300877C80 /* The_Lasso_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE382767FC1300877C80 /* The_Lasso_EffectTests.swift */; };
+		7CC1BE432767FC1300877C80 /* The_Lasso_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE422767FC1300877C80 /* The_Lasso_EffectUITests.swift */; };
+		7CC1BE452767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE442767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC1BE352767FC1300877C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC1BE1C2767FC1000877C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC1BE232767FC1000877C80;
+			remoteInfo = "The Lasso Effect";
+		};
+		7CC1BE3F2767FC1300877C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC1BE1C2767FC1000877C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC1BE232767FC1000877C80;
+			remoteInfo = "The Lasso Effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CC1BE242767FC1000877C80 /* The Lasso Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Lasso Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectApp.swift; sourceTree = "<group>"; };
+		7CC1BE292767FC1000877C80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CC1BE2B2767FC1200877C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC1BE2E2767FC1200877C80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CC1BE342767FC1300877C80 /* The Lasso EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Lasso EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC1BE382767FC1300877C80 /* The_Lasso_EffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectTests.swift; sourceTree = "<group>"; };
+		7CC1BE3E2767FC1300877C80 /* The Lasso EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Lasso EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC1BE422767FC1300877C80 /* The_Lasso_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectUITests.swift; sourceTree = "<group>"; };
+		7CC1BE442767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC1BE212767FC1000877C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC1BE312767FC1300877C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC1BE3B2767FC1300877C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC1BE1B2767FC1000877C80 = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE262767FC1000877C80 /* The Lasso Effect */,
+				7CC1BE372767FC1300877C80 /* The Lasso EffectTests */,
+				7CC1BE412767FC1300877C80 /* The Lasso EffectUITests */,
+				7CC1BE252767FC1000877C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC1BE252767FC1000877C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE242767FC1000877C80 /* The Lasso Effect.app */,
+				7CC1BE342767FC1300877C80 /* The Lasso EffectTests.xctest */,
+				7CC1BE3E2767FC1300877C80 /* The Lasso EffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC1BE262767FC1000877C80 /* The Lasso Effect */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */,
+				7CC1BE292767FC1000877C80 /* ContentView.swift */,
+				7CC1BE2B2767FC1200877C80 /* Assets.xcassets */,
+				7CC1BE2D2767FC1200877C80 /* Preview Content */,
+			);
+			path = "The Lasso Effect";
+			sourceTree = "<group>";
+		};
+		7CC1BE2D2767FC1200877C80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE2E2767FC1200877C80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CC1BE372767FC1300877C80 /* The Lasso EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE382767FC1300877C80 /* The_Lasso_EffectTests.swift */,
+			);
+			path = "The Lasso EffectTests";
+			sourceTree = "<group>";
+		};
+		7CC1BE412767FC1300877C80 /* The Lasso EffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE422767FC1300877C80 /* The_Lasso_EffectUITests.swift */,
+				7CC1BE442767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift */,
+			);
+			path = "The Lasso EffectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC1BE232767FC1000877C80 /* The Lasso Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC1BE482767FC1300877C80 /* Build configuration list for PBXNativeTarget "The Lasso Effect" */;
+			buildPhases = (
+				7CC1BE202767FC1000877C80 /* Sources */,
+				7CC1BE212767FC1000877C80 /* Frameworks */,
+				7CC1BE222767FC1000877C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Lasso Effect";
+			productName = "The Lasso Effect";
+			productReference = 7CC1BE242767FC1000877C80 /* The Lasso Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC1BE332767FC1300877C80 /* The Lasso EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC1BE4B2767FC1300877C80 /* Build configuration list for PBXNativeTarget "The Lasso EffectTests" */;
+			buildPhases = (
+				7CC1BE302767FC1300877C80 /* Sources */,
+				7CC1BE312767FC1300877C80 /* Frameworks */,
+				7CC1BE322767FC1300877C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC1BE362767FC1300877C80 /* PBXTargetDependency */,
+			);
+			name = "The Lasso EffectTests";
+			productName = "The Lasso EffectTests";
+			productReference = 7CC1BE342767FC1300877C80 /* The Lasso EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC1BE3D2767FC1300877C80 /* The Lasso EffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC1BE4E2767FC1300877C80 /* Build configuration list for PBXNativeTarget "The Lasso EffectUITests" */;
+			buildPhases = (
+				7CC1BE3A2767FC1300877C80 /* Sources */,
+				7CC1BE3B2767FC1300877C80 /* Frameworks */,
+				7CC1BE3C2767FC1300877C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC1BE402767FC1300877C80 /* PBXTargetDependency */,
+			);
+			name = "The Lasso EffectUITests";
+			productName = "The Lasso EffectUITests";
+			productReference = 7CC1BE3E2767FC1300877C80 /* The Lasso EffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC1BE1C2767FC1000877C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7CC1BE232767FC1000877C80 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					7CC1BE332767FC1300877C80 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 7CC1BE232767FC1000877C80;
+					};
+					7CC1BE3D2767FC1300877C80 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 7CC1BE232767FC1000877C80;
+					};
+				};
+			};
+			buildConfigurationList = 7CC1BE1F2767FC1000877C80 /* Build configuration list for PBXProject "The Lasso Effect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC1BE1B2767FC1000877C80;
+			productRefGroup = 7CC1BE252767FC1000877C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC1BE232767FC1000877C80 /* The Lasso Effect */,
+				7CC1BE332767FC1300877C80 /* The Lasso EffectTests */,
+				7CC1BE3D2767FC1300877C80 /* The Lasso EffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC1BE222767FC1000877C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC1BE2F2767FC1200877C80 /* Preview Assets.xcassets in Resources */,
+				7CC1BE2C2767FC1200877C80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC1BE322767FC1300877C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC1BE3C2767FC1300877C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC1BE202767FC1000877C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC1BE2A2767FC1000877C80 /* ContentView.swift in Sources */,
+				7CC1BE282767FC1000877C80 /* The_Lasso_EffectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC1BE302767FC1300877C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC1BE392767FC1300877C80 /* The_Lasso_EffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC1BE3A2767FC1300877C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC1BE452767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift in Sources */,
+				7CC1BE432767FC1300877C80 /* The_Lasso_EffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC1BE362767FC1300877C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC1BE232767FC1000877C80 /* The Lasso Effect */;
+			targetProxy = 7CC1BE352767FC1300877C80 /* PBXContainerItemProxy */;
+		};
+		7CC1BE402767FC1300877C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC1BE232767FC1000877C80 /* The Lasso Effect */;
+			targetProxy = 7CC1BE3F2767FC1300877C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CC1BE462767FC1300877C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC1BE472767FC1300877C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC1BE492767FC1300877C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Lasso Effect/Preview Content\"";
+				DEVELOPMENT_TEAM = MCVQ5TY7KR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.The-Lasso-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC1BE4A2767FC1300877C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Lasso Effect/Preview Content\"";
+				DEVELOPMENT_TEAM = MCVQ5TY7KR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.The-Lasso-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CC1BE4C2767FC1300877C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCVQ5TY7KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.The-Lasso-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Lasso Effect.app/The Lasso Effect";
+			};
+			name = Debug;
+		};
+		7CC1BE4D2767FC1300877C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCVQ5TY7KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.The-Lasso-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Lasso Effect.app/The Lasso Effect";
+			};
+			name = Release;
+		};
+		7CC1BE4F2767FC1300877C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCVQ5TY7KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.The-Lasso-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Lasso Effect";
+			};
+			name = Debug;
+		};
+		7CC1BE502767FC1300877C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MCVQ5TY7KR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.The-Lasso-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Lasso Effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC1BE1F2767FC1000877C80 /* Build configuration list for PBXProject "The Lasso Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1BE462767FC1300877C80 /* Debug */,
+				7CC1BE472767FC1300877C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC1BE482767FC1300877C80 /* Build configuration list for PBXNativeTarget "The Lasso Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1BE492767FC1300877C80 /* Debug */,
+				7CC1BE4A2767FC1300877C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC1BE4B2767FC1300877C80 /* Build configuration list for PBXNativeTarget "The Lasso EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1BE4C2767FC1300877C80 /* Debug */,
+				7CC1BE4D2767FC1300877C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC1BE4E2767FC1300877C80 /* Build configuration list for PBXNativeTarget "The Lasso EffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1BE4F2767FC1300877C80 /* Debug */,
+				7CC1BE502767FC1300877C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC1BE1C2767FC1000877C80 /* Project object */;
+}
