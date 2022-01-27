@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C4F864E27949FAD00CF5F50 /* MoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F864D27949FAD00CF5F50 /* MoreButton.swift */; };
+		7C645C1427713684004E7953 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C645C1327713684004E7953 /* UIScreen+Extension.swift */; };
 		7CC1BE282767FC1000877C80 /* The_Lasso_EffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */; };
 		7CC1BE2A2767FC1000877C80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE292767FC1000877C80 /* ContentView.swift */; };
 		7CC1BE2C2767FC1200877C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC1BE2B2767FC1200877C80 /* Assets.xcassets */; };
@@ -14,6 +16,13 @@
 		7CC1BE392767FC1300877C80 /* The_Lasso_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE382767FC1300877C80 /* The_Lasso_EffectTests.swift */; };
 		7CC1BE432767FC1300877C80 /* The_Lasso_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE422767FC1300877C80 /* The_Lasso_EffectUITests.swift */; };
 		7CC1BE452767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE442767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift */; };
+		7CC1BE542767FD0A00877C80 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE532767FD0A00877C80 /* QuoteModel.swift */; };
+		7CC1BE562767FDFB00877C80 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE552767FDFB00877C80 /* NetworkManager.swift */; };
+		7CC1BE5927691FF700877C80 /* QuoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE5827691FF700877C80 /* QuoteData.swift */; };
+		7CC1BE5D276ACE0F00877C80 /* QuoteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE5C276ACE0F00877C80 /* QuoteLabel.swift */; };
+		7CC1BE5F276BE08700877C80 /* AuthorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE5E276BE08700877C80 /* AuthorLabel.swift */; };
+		7CC1BE61276BE67300877C80 /* AuthorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1BE60276BE67300877C80 /* AuthorImage.swift */; };
+		7CECF1E92794D11A007F994F /* AuthImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECF1E82794D11A007F994F /* AuthImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C4F864D27949FAD00CF5F50 /* MoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreButton.swift; sourceTree = "<group>"; };
+		7C645C1327713684004E7953 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		7CC1BE242767FC1000877C80 /* The Lasso Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Lasso Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectApp.swift; sourceTree = "<group>"; };
 		7CC1BE292767FC1000877C80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,14 @@
 		7CC1BE3E2767FC1300877C80 /* The Lasso EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Lasso EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC1BE422767FC1300877C80 /* The_Lasso_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectUITests.swift; sourceTree = "<group>"; };
 		7CC1BE442767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lasso_EffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CC1BE532767FD0A00877C80 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		7CC1BE552767FDFB00877C80 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7CC1BE572768084700877C80 /* The-Lasso-Effect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "The-Lasso-Effect-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7CC1BE5827691FF700877C80 /* QuoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteData.swift; sourceTree = "<group>"; };
+		7CC1BE5C276ACE0F00877C80 /* QuoteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteLabel.swift; sourceTree = "<group>"; };
+		7CC1BE5E276BE08700877C80 /* AuthorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorLabel.swift; sourceTree = "<group>"; };
+		7CC1BE60276BE67300877C80 /* AuthorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorImage.swift; sourceTree = "<group>"; };
+		7CECF1E82794D11A007F994F /* AuthImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C4F864F2794C5F600CF5F50 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F864D27949FAD00CF5F50 /* MoreButton.swift */,
+				7CC1BE5C276ACE0F00877C80 /* QuoteLabel.swift */,
+				7CC1BE5E276BE08700877C80 /* AuthorLabel.swift */,
+				7CC1BE60276BE67300877C80 /* AuthorImage.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		7C645C122771365F004E7953 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */,
+				7C645C1327713684004E7953 /* UIScreen+Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7CC1BE1B2767FC1000877C80 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +133,10 @@
 		7CC1BE262767FC1000877C80 /* The Lasso Effect */ = {
 			isa = PBXGroup;
 			children = (
-				7CC1BE272767FC1000877C80 /* The_Lasso_EffectApp.swift */,
-				7CC1BE292767FC1000877C80 /* ContentView.swift */,
+				7C645C122771365F004E7953 /* Resources */,
+				7CC1BE572768084700877C80 /* The-Lasso-Effect-Info.plist */,
+				7CC1BE512767FC7F00877C80 /* Views */,
+				7CC1BE522767FC8A00877C80 /* Models */,
 				7CC1BE2B2767FC1200877C80 /* Assets.xcassets */,
 				7CC1BE2D2767FC1200877C80 /* Preview Content */,
 			);
@@ -125,6 +166,26 @@
 				7CC1BE442767FC1300877C80 /* The_Lasso_EffectUITestsLaunchTests.swift */,
 			);
 			path = "The Lasso EffectUITests";
+			sourceTree = "<group>";
+		};
+		7CC1BE512767FC7F00877C80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE292767FC1000877C80 /* ContentView.swift */,
+				7C4F864F2794C5F600CF5F50 /* UIComponents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CC1BE522767FC8A00877C80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CC1BE532767FD0A00877C80 /* QuoteModel.swift */,
+				7CC1BE552767FDFB00877C80 /* NetworkManager.swift */,
+				7CC1BE5827691FF700877C80 /* QuoteData.swift */,
+				7CECF1E82794D11A007F994F /* AuthImageService.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4F864E27949FAD00CF5F50 /* MoreButton.swift in Sources */,
+				7CC1BE5F276BE08700877C80 /* AuthorLabel.swift in Sources */,
+				7CC1BE562767FDFB00877C80 /* NetworkManager.swift in Sources */,
+				7CC1BE61276BE67300877C80 /* AuthorImage.swift in Sources */,
+				7CC1BE5D276ACE0F00877C80 /* QuoteLabel.swift in Sources */,
+				7CC1BE542767FD0A00877C80 /* QuoteModel.swift in Sources */,
+				7C645C1427713684004E7953 /* UIScreen+Extension.swift in Sources */,
+				7CECF1E92794D11A007F994F /* AuthImageService.swift in Sources */,
 				7CC1BE2A2767FC1000877C80 /* ContentView.swift in Sources */,
 				7CC1BE282767FC1000877C80 /* The_Lasso_EffectApp.swift in Sources */,
+				7CC1BE5927691FF700877C80 /* QuoteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +492,7 @@
 				DEVELOPMENT_TEAM = MCVQ5TY7KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Lasso-Effect-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +522,7 @@
 				DEVELOPMENT_TEAM = MCVQ5TY7KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Lasso-Effect-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
