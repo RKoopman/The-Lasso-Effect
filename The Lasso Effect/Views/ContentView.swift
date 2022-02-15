@@ -58,11 +58,10 @@ struct ContentView: View {
                         .shadow(radius: 10)
                         .overlay(Circle().stroke(.white, lineWidth: 5))
                 }
-                    
                 
-                AuthorLabel(text: networkManager.responseQuotes.last?.author ?? "not sure who")
+                AuthorLabel(text: networkManager.responseQuotes.last?.author ?? " ")
                     .padding(.bottom, 20)
-                
+                                
                 Button(action: {
                     networkManager.fetchQuote()
                 }) {
@@ -71,11 +70,11 @@ struct ContentView: View {
                         .fontWeight(.heavy)
                         .foregroundColor(.white)
                         .padding(.horizontal)
+                        .padding(.vertical, 5)
                 }
                 .background(Color.red)
                 .cornerRadius(5.0)
                 .padding(.bottom, 40)
-                                
             }
             .background(
                 LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -83,6 +82,7 @@ struct ContentView: View {
             .frame(width: UIScreen.screenWidth - 20, height: UIScreen.screenHeight - 90, alignment: .center)
             .cornerRadius(40.0)
         }
+        .padding(.top, 60)
         .onAppear {
             self.networkManager.fetchQuote()
         }

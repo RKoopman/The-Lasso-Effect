@@ -13,7 +13,6 @@ struct MoreButton: View {
     
     var body: some View {
             Button(action: {
-                print("MORE HAS BEEN PRESSED!!")
                 networkManager.fetchQuote()
             }) {
                 Text("More Advice")
@@ -21,6 +20,7 @@ struct MoreButton: View {
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
                     .padding(.horizontal)
+                    .padding(.vertical, 5)
             }
             .background(Color.red)
             .cornerRadius(5.0)
