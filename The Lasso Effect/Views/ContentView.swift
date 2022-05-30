@@ -83,7 +83,7 @@ struct ContentView: View {
             .frame(width: UIScreen.screenWidth - 20, height: UIScreen.screenHeight - 90, alignment: .center)
             .cornerRadius(40.0)
         }
-        .padding(.top, 60)
+        .padding(.top, 40)
         .onAppear {
             self.networkManager.fetchQuote()
         }
