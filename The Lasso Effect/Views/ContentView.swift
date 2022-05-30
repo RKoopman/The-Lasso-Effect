@@ -13,7 +13,6 @@ struct ContentView: View {
     
     @ObservedObject var networkManager = NetworkManager()
     
-    
     var body: some View {
         ZStack {
             VStack {
@@ -21,7 +20,7 @@ struct ContentView: View {
                 Spacer()
                 
                 QuoteLabel(text: networkManager.responseQuotes.last?.quote ?? "finding insperation")
-                
+                    .shadow(radius: 10)
                 Spacer()
                 
                 switch networkManager.responseQuotes.last?.tag {
@@ -61,6 +60,7 @@ struct ContentView: View {
                 
                 AuthorLabel(text: networkManager.responseQuotes.last?.author ?? " ")
                     .padding(.bottom, 20)
+                    .shadow(radius: 10)
                                 
                 Button(action: {
                     networkManager.fetchQuote()
@@ -74,7 +74,8 @@ struct ContentView: View {
                 }
                 .background(Color.red)
                 .cornerRadius(5.0)
-                .padding(.bottom, 40)
+                .padding(.bottom, 50)
+                .shadow(radius: 10)
             }
             .background(
                 LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)

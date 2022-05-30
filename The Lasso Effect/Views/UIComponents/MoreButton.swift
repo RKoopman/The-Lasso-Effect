@@ -25,7 +25,7 @@ struct MoreButton: View {
             .background(Color.red)
             .cornerRadius(5.0)
         }
-    }
+    } 
 
 
 struct MoreButton_Previews: PreviewProvider {
