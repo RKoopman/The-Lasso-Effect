@@ -64,6 +64,8 @@ struct ContentView: View {
                                 
                 Button(action: {
                     networkManager.fetchQuote()
+                    let hapticFB = UIImpactFeedbackGenerator(style: .medium)
+                        hapticFB.impactOccurred()
                 }) {
                     Text("More Advice")
                         .font(.system(size: 20))
